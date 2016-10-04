@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context="com.kfc.julianalmanza.kfc.visualizacion_productos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_marginTop="25sp"
+        android:layout_marginRight="15sp"
+        android:layout_marginLeft="15sp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/brown"
+            android:textSize="35sp"
+            android:gravity="center"
+            android:textColor="@color/whitesmoke"
+            android:id="@+id/titulo"
+            android:typeface="serif"
+            android:text="@string/megavariedad"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0sp"
+            android:textSize="20sp"
+            android:background="@color/lightgray"
+            android:id="@+id/descripcion"
+            android:textColor="@color/black"
+            android:text="@string/descripcion_megavariedad"
+            />
+        <ImageView
+            android:layout_width="400sp"
+            android:layout_height="300sp"
+            android:layout_gravity="center"
+            android:id="@+id/imagen"
+            android:layout_marginTop="13sp"
+            android:src="@drawable/kfc_mega_variedad"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/brown"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:textColor="@color/whitesmoke"
+            android:id="@+id/volver"
+            android:typeface="serif"
+            android:text="@string/volver"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
